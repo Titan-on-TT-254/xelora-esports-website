@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Xelora Esports | CODM</title>
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#08080b;color:#fff;font-family:Arial,sans-serif}
+header{padding:16px;text-align:center;background:#111;border-bottom:2px solid #f22}
+header h2{color:#f22;letter-spacing:3px}
+nav{display:flex;justify-content:center;gap:18px;flex-wrap:wrap}
+a{color:white;text-decoration:none}
+.hero{text-align:center;padding:55px 18px;background:radial-gradient(circle,#50101b,#08080b 70%);animation:fade 1.5s}
+.logo{width:150px;height:150px;border:3px solid #f22;border-radius:50%;display:grid;place-items:center;margin:auto;font-size:65px;font-weight:bold;color:#f22;box-shadow:0 0 30px #f22}
+h1{font-size:clamp(35px,8vw,65px);margin:22px 0 10px}
+h1 span,h2 span{color:#f22}
+p{color:#ccc;line-height:1.7}
+.btn{display:inline-block;background:#f22;padding:12px 20px;border-radius:5px;font-weight:bold;margin:8px}
+section{padding:45px 18px;max-width:1000px;margin:auto}
+h2{text-align:center}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px}
+.card{background:#15151b;border:1px solid #442029;border-radius:10px;padding:20px;text-align:center;transition:.3s}
+.card:hover{transform:translateY(-6px);box-shadow:0 0 20px #f223}
+.badge{font-size:45px;color:#f22}
+footer{text-align:center;padding:25px;background:#111;border-top:1px solid #f22}
+@keyframes fade{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+</style>
+</head>
+<body>
+<header>
+<h2>XELORA <span>ESPORTS</span></h2>
+<nav><a href="#about">About</a><a href="#roster">Roster</a><a href="#wins">Achievements</a><a href="#join">Join</a></nav>
+</header>
+<div class="hero">
+<div class="logo">X</div>
+<p>CALL OF DUTY: MOBILE CLAN</p>
+<h1>BORN TO <span>COMPETE.</span></h1>
+<p>One squad. One standard. One mission.</p>
+<a class="btn" href="#roster">MEET THE CLAN</a>
+<a class="btn" href="#join">JOIN XELORA</a>
+</div>
+<section id="about">
+<h2>MORE THAN A <span>CLAN</span></h2>
+<div class="card"><p>Xelora Esports is built on skill, respect, teamwork and the desire to improve together. Every match is another chance to rise.</p></div>
+</section>
+<section id="roster">
+<h2>CLAN <span>ROSTER</span></h2>
+<div class="cards">
+<div class="card"><div class="badge">♛</div><h3>Clan Leader</h3><p>Leader</p></div>
+<div class="card"><div class="badge">⚔</div><h3>Member Two</h3><p>Co-Leader</p></div>
+<div class="card"><div class="badge">★</div><h3>Member Three</h3><p>Core Member</p></div>
+</div>
+<p style="text-align:center">Replace these example names with your real members.</p>
+</section>
+<section id="wins">
+<h2>OUR <span>ACHIEVEMENTS</span></h2>
+<div class="cards">
+<div class="card"><div class="badge">✦</div><h3>First Milestone</h3><p>Add your clan's first milestone here.</p></div>
+<div class="card"><div class="badge">🏆</div><h3>Tournament Results</h3><p>Add real tournament results here.</p></div>
+<div class="card"><div class="badge">🔥</div><h3>Squad Growth</h3><p>Celebrate your team's progress.</p></div>
+</div>
+</section>
+<section id="join">
+<h2>JOIN <span>XELORA</span></h2>
+<div class="card"><p>Want to join our clan? Contact the clan leader and share your CODM username and preferred game mode.</p><p>Clan contact link coming soon.</p></div>
+</section>
+<footer>© 2026 XELORA ESPORTS · SKILL. RESPECT. RISE TOGETHER.</footer>
+</body>
+</html>
